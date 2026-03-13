@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="hoping.Bottom" size="1.000000 1.000000"/>
+        <ImageTarget name="hoping.Back" size="1.000000 1.000000"/>
+        <ImageTarget name="hoping.Left" size="1.000000 1.000000"/>
+        <ImageTarget name="hoping.Front" size="1.000000 1.000000"/>
+        <ImageTarget name="hoping.Top" size="1.000000 1.000000"/>
+        <ImageTarget name="hoping.Right" size="1.000000 1.000000"/>
+        <MultiTarget name="hoping">
+            <Part name="hoping.Left" translation="-0.5 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="hoping.Right" translation="0.5 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="hoping.Front" translation="0 0 0.5" rotation="AD: 1 0 0 0"/>
+            <Part name="hoping.Back" translation="0 0 -0.5" rotation="AD: 0 1 0 180"/>
+            <Part name="hoping.Top" translation="0 0.5 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="hoping.Bottom" translation="0 -0.5 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
